@@ -1,0 +1,347 @@
+@import "vendor/bootstrap";
+@import "vendor/jquery-ui";
+@import "vendor/jquery-ui-theme";
+@import "vendor/animate";
+@import "vendor/font-awesome";
+@import "vendor/pe-icon-7-stroke";
+@import "vendor/toastr";
+
+
+@import "shareairscss/variables";
+@import "shareairscss/mixins";
+
+@import "shareairscss/typography";
+
+// Core CSS
+@import "shareairscss/misc";
+@import "shareairscss/sidebar-and-main-panel";
+@import "shareairscss/buttons";
+@import "shareairscss/inputs";
+
+@import "shareairscss/alerts";
+@import "shareairscss/tables";
+
+@import "shareairscss/checkbox-radio-switch";
+@import "shareairscss/navbars";
+@import "shareairscss/footers";
+@import "shareairscss/pagination";
+
+
+// Fancy Stuff
+
+@import "shareairscss/dropdown";
+@import "shareairscss/cards";
+@import "shareairscss/chartist";
+@import "shareairscss/responsive";
+
+@import "vendor/ie10-viewport-bug-workaround";
+
+
+
+/*short codes*/
+
+.no-boxshadow {
+  box-shadow: none!important;
+}
+
+.no-border {
+  border: 0!important;
+}
+.bb-0{
+  border-bottom: 0!important;
+}
+.bl-0{
+  border-left: 0!important;
+}
+.br-0{
+  border-right: 0!important;
+}
+.bt-0{
+  border-top: 0!important;
+}
+.mt-0 {
+  margin-top: 0!important;
+}
+.mb-0 {
+  margin-bottom: 0!important;
+}
+.plr-0 {
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+.pl-0 {
+  padding-left: 0!important;
+}
+.pr-0 {
+  padding-right: 0!important;
+}
+.ml-0 {
+  margin-left: 0!important;
+
+}
+.mlr-0 {
+  margin: auto 0!important;
+}
+.mt-30 {
+  margin-top: 30px!important;;
+}
+.mb-30 {
+  margin-bottom: 30px!important;;
+}
+.mt-25 {
+  margin-top: 25px!important;;
+}
+.mb-25 {
+  margin-bottom: 25px!important;;
+}
+.mt-10 {
+  margin-top: 10px!important;;
+}
+.mb-10 {
+  margin-bottom: 10px!important;;
+}
+.mt-20 {
+  margin-top: 20px!important;;
+}
+.mb-20 {
+  margin-bottom: 20px!important;;
+}
+
+.mt-12 {
+  margin-top: 12px!important;;
+}
+.mb-17 {
+  margin-bottom: 17px!important;
+}
+.mt-15 {
+  margin-top: 15px!important;;
+}
+.mb-15 {
+  margin-bottom: 15px!important;;
+}
+.mr-5 {
+  margin-right: 5px!important;;
+}
+.mt-5 {
+  margin-top: 5px!important;;
+}
+.mb-5 {
+  margin-bottom: 5px!important;;
+}
+
+.top0 {
+  top: 0!important;
+}
+.top4 {
+  top: 4px!important;
+}
+.top-2 {
+  top: -2px!important;
+}
+.w-100p {
+  width: 100%;
+}
+.bg-filter {
+  background-color: #F0F0F0;
+}
+
+hr.separator {
+  opacity: 0.5;
+}
+
+.jp-spacer-5 {
+  height: 5px;
+}
+.jp-spacer-10 {
+  height: 10px;
+}
+.jp-spacer-15 {
+  height: 15px;
+}
+.jp-spacer-20 {
+  height: 20px;
+}
+.jp-spacer-25 {
+  height: 25px;
+}
+
+
+/*end short codes*/
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.table-action-btns {
+  .action-btn {
+    display: inline-block;
+    margin-right: 5px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+/*Checkboxes*/
+.checkbox-inline+.checkbox-inline, .checkbox-inline {
+  margin-right: 10px;
+  margin-left: 0;
+  margin-bottom: 5px;
+}
+.checkbox-inline input[type=checkbox] {
+  cursor: pointer;
+}
+.label.label-validation {
+  font-size: 75%;
+  color: #333;
+  padding: 0;
+  cursor: pointer;
+}
+
+/*Pagination*/
+.pagination-section {
+  padding: 0px 15px 10px;
+}
+
+/* Tree view draggable nad sortable*/
+
+.open>.dropdown-menu {
+  display: block;
+}
+.navbar-right {
+  float: right !important;
+  margin-right: -15px;
+}
+
+ul#sortable2 {
+  list-style-type: none;
+  padding: 0;
+}
+#sortable2 li {
+  /*margin: 0 3px 3px 3px;
+  padding: 0.4em;
+  padding-left: 0em;*/
+  font-size: 1.4em;
+  height: auto;
+}
+
+
+
+ul#unsortable {
+  list-style-type: none;
+  padding: 0;
+}
+#unsortable li {
+ /* margin: 0 3px 3px 3px;
+  padding: 0.4em;*/
+  padding-left: 0em;
+  font-size: 1.4em;
+  height: auto;
+}
+
+
+#sortable3 li {
+  /*margin: 0 3px 3px 3px;
+  padding: 0.4em;*/
+  padding-left: 0em;
+  font-size: 1.4em;
+  height: auto;
+
+}
+ul#sortable3 {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+
+ul.alert.alert-danger {
+  list-style-type: none;
+}
+ul.alert.alert-success {
+  list-style-type: none;
+}
+
+#sortable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 70%;
+}
+
+#sortable li {
+  padding-left: 0em;
+  font-size: 1.4em;
+  height: auto;
+
+
+ @include respond-to($desktopSmall, none) {
+   [class*="col-"] {
+     padding: 6px 15px!important;
+   }
+ }
+
+  @include respond-to($desktopSmall, max) {
+   [class*="col-"] {
+     padding: 6px 15px!important;
+   }
+ }
+}
+
+#sortable li span {
+  margin-left: 0em;
+}
+.ui-sortable-helper .input-group-addon span.ui-icon {
+  cursor: move!important;
+}
+.ui-sortable-placeholder{
+  visibility: visible!important;
+  border: 1px dashed #999;
+  background-color: #f9f9f9;
+}
+.highlight {
+
+}
+
+.panel-body form, .form-font-size {
+  font-size: 10px;
+}
+.panel-body form, .ui-sortable li {
+  @include respond-to($desktopSmall, max) {
+    [class*="col-"] {
+      padding: 6px 15px!important;
+    }
+  }
+}
+.form-control + .error {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #dc3545;
+}
+
+.no-result {
+  text-align: center;
+  padding: 50px 30px;
+}
+
+/*Panel Custom style*/
+.panel-collapse-custom {
+  border: 0;
+  box-shadow: none;
+
+  .panel-heading {
+    border-bottom: solid #E3E3E3 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
+  .panel-heading + .panel-collapse>.panel-body {
+    background: rgba(239, 239, 239, 0.47);
+    border: solid #E3E3E3 1px;
+    border-top: 0;
+  }
+
+}
+/*Panel Custom style*/
